@@ -23,7 +23,7 @@ let operator = "";
 function operate(a,b,c){
     switch (c) {
         case 'add':
-          add(a,b);
+          console.log(add(a,b));
           break;
         case 'substract':
             substract(a,b);

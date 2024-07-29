@@ -1,0 +1,27 @@
+
+
+.container{
+    width: 215px;
+    padding: 5px;
+    margin: 80px auto;
+    border: solid,2px grey;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.resultDisplayer{
+    border: solid,2px grey;
+    height: 60px;
+    flex-basis: 100%;
+}
+
+button{
+
+    height: 50px;
+    flex-basis: 49px;
+}
+
+.bigger{
+    flex-basis: 49%;
+}
